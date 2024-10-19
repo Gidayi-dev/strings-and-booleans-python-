@@ -65,3 +65,34 @@ print(result)  # Output: The sum of 5 and 10 is 15.
 #Escape characters in Python are used to insert characters that are illegal or difficult to include directly in a string. They start with a backslash (\). Here are some commonly used escape characters and what they do
 txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
+
+#Python Booleans
+a = 200
+b = 40
+
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is less than a")
+    
+
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+#You can create functions that returns a Boolean Value
+def myFunction() :
+      return True
+
+print(myFunction())
+
+def myFunction() :
+      return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+  
