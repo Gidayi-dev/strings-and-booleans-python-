@@ -96,3 +96,50 @@ if myFunction():
 else:
   print("NO!")
   
+#python operators
+#Python divides the operators in the following groups:
+#Arithmetic operators: Arithmetic operators perform mathematical operations like addition, subtraction, multiplication, and division.
+
+a = 10
+b = 5
+result = a + b  # 15
+#Assignment operators: Assignment operators are used to assign values to variables.
+a = 10
+a += 5  # a = a + 5, a is now 15
+
+#Comparison operators: Comparison operators compare two values and return a boolean result
+a == b  # False
+a != b  # True
+a >= b  # True
+
+#Logical operators: Logical operators are used to combine conditional statements.
+a > 0 and b > 0  # True
+#Not (not): Reverses the result of the condition.
+not(a > 0)  # False
+a = [1, 2, 3]
+b = a
+a is b  # True
+
+
+#Identity operators: dentity operators compare the memory location of two objects.
+a = [1, 2, 3]
+b = a
+a is b  # True
+
+b = [1, 2, 3]
+a is not b  # True
+
+#Membership operators:Membership operators test for membership in a sequence, such as strings, lists, or tuples.
+1 in a  # True
+b = [1, 2, 3]
+a is not b  # True
+
+#Bitwise operators: Bitwise operators perform operations on the binary representations of integers.
+a = 5  # 0101
+b = 3  # 0011
+result = a & b  # 0001, which is 1
+
+result = a << 1  # 1010, which is 10
+
+
+print((6 + 3) - (6 + 3))
